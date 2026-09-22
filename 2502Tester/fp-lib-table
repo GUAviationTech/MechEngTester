@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Wago") (type "KiCad") (uri "${KIPRJMOD}/Library/Wago Connectors/Wago.pretty") (options "") (descr ""))
+)
