@@ -2,10 +2,10 @@
 #include <Servo.h>
 #include <Stepper.h>
 
-int PIN_LED_SERVO = 10;
-int PIN_LED_STEPPER = 13;
-int PIN_BTN_SERVO = 11;
-int PIN_BTN_STEPPER = 12;
+int PIN_LED_SERVO = 13;
+int PIN_LED_STEPPER = 10;
+int PIN_BTN_SERVO = 12;
+int PIN_BTN_STEPPER = 11;
 
 int PIN_SERVO = 9;
 
@@ -171,7 +171,7 @@ void loop() {
 
   if(digitalRead(PIN_BTN_SERVO)) {
     digitalWrite(PIN_LED_SERVO, HIGH);
-    servo.write(180);
+    servo.write(MAX_PULSE_WIDTH);
   }
 
   else {
