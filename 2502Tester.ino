@@ -2,8 +2,8 @@
 #include <Servo.h>
 #include <Stepper.h>
 
-int PIN_LED_SERVO = 13;
-int PIN_LED_STEPPER = 10;
+int PIN_LED_SERVO = 10;
+int PIN_LED_STEPPER = 13;
 int PIN_BTN_SERVO = 11;
 int PIN_BTN_STEPPER = 12;
 
