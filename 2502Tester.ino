@@ -15,6 +15,7 @@ int PIN_STEPPER_IN_2 = 7;
 
 Servo servo;
 
+int STEPPER_TEST_VALUE = 180;
 
 void setup() {
 
@@ -171,7 +172,7 @@ void loop() {
 
   if(digitalRead(PIN_BTN_SERVO)) {
     digitalWrite(PIN_LED_SERVO, HIGH);
-    servo.write(MAX_PULSE_WIDTH);
+    servo.write(STEPPER_TEST_VALUE);
   }
 
   else {
