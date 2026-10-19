@@ -2,7 +2,7 @@
 
 Used to test servos and motors for 2502ENG Mech Eng.
 
-Motors will run and servos will rotate when the respective button is pressed. 360deg servos will constantly rotate, but will change direction when the button is pressed. 
+Steppers will run and servos will rotate when the respective button is pressed. 360deg servos will constantly rotate, but will change direction when the button is pressed. 
 
 Ensure the battery is set around 6-8V to not blow out the servos.
 
