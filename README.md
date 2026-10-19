@@ -1,6 +1,6 @@
 ### Tester Project for 2502ENG Mech Eng
 
-Used to test servos and motors for 2502ENG Mech Eng.
+Used to test steppers and servos.
 
 Steppers will run and servos will rotate when the respective button is pressed. 360deg servos will constantly rotate, but will change direction when the button is pressed. 
 
